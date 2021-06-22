@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VCI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vikas Career Institute</string>
+    <string name="nav_header_subtitle">abhlshtrpth13@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="about_us_sstrin_text">Started in the year 2020, VCI is the good online educational plateform providing free study material to you. Everyday many active users practice daily quizzes on VCI. We are on amission to provide quality education to each and every student in the India. Presently our main focus is to help the students to crack government sector exams like SBI,IBPS,LIC,SSC etc.   </string>
+</resources>

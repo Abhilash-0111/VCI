@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical" >
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2121577746086633/5385917148">
+        </com.google.android.gms.ads.AdView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_margin="16dp"
+            android:textSize="20sp"
+            android:id="@+id/questionstxt"
+            android:text="Please connect network! "
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:text=" "
+            android:layout_margin="16dp"
+            android:textSize="20sp"
+            android:background="#FFFF"
+            android:textColor="#0A0A8A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button2"
+            android:background="#FFFF"
+            android:textColor="#0A0A8A"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button3"
+            android:text="  "
+            android:layout_margin="16dp"
+            android:background="#FFFF"
+            android:textSize="20sp"
+            android:textColor="#0A0A8A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_margin="16dp"
+            android:text="  "
+            android:background="#FFFF"
+            android:textColor="#0A0A8A"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="00:00 "
+            android:id="@+id/timertxt"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_margin="16dp"
+                android:text=" 0 "
+                android:textSize="20sp"
+                android:background="@android:color/holo_green_light"
+                android:id="@+id/correctans"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:background="@android:color/holo_red_dark"
+                android:textSize="20sp"
+                android:text=" 0 "
+                android:id="@+id/wrongans"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/speechbutton"
+            android:text="speech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2121577746086633/8314003820">
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+</ScrollView>

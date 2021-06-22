@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1020798444673",
+    "firebase_url": "https://vcifirebaseproject.firebaseio.com",
+    "project_id": "vcifirebaseproject",
+    "storage_bucket": "vcifirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020798444673:android:26f2f076ea3fbf72af5980",
+        "android_client_info": {
+          "package_name": "com.competitiveexam.android.vci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020798444673-7ooj3l21pn47lte74cenvglt6ia91mac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.competitiveexam.android.vci",
+            "certificate_hash": "fc54437911f6bbf6444969dec3a993d896f96758"
+          }
+        },
+        {
+          "client_id": "1020798444673-lbn3at3a7iolcs4pb81juj9d2p68hvu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj3yNmKz59FyTMBmbSG8xJjCDKo0cbScc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020798444673-lbn3at3a7iolcs4pb81juj9d2p68hvu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardact1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img4"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Qbutton1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=" Reasoning "
+            android:background="#ffff"
+            android:textColor="#192047"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:id="@+id/Qbutton2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=" Aptitude "
+            android:background="#ffff"
+            android:textColor="#192047"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:id="@+id/Qbutton3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=" General Studies "
+            android:background="#ffff"
+            android:textColor="#192047"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="16dp"
+            />
+
+        <Button
+            android:id="@+id/Qbutton4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text=" English "
+            android:background="#ffff"
+            android:textColor="#192047"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="16dp"
+            />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2121577746086633/5098110717">
+
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

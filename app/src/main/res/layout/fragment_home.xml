@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4">
+
+   <ScrollView
+       android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="8dp"
+           android:orientation="vertical"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintTop_toTopOf="parent">
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card1"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_marginTop="32dp"
+               android:layout_marginBottom="32dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="#ffffff"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/img6" />
+
+                   <!-- your views -->
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card2"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_marginBottom="32dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="#ffffff"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/img7" />
+                   <!-- your views -->
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card3"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_marginBottom="32dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="#ffffff"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/img5" />
+
+                   <!-- your views -->
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+               android:id="@+id/adView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true"
+               android:layout_margin="4dp"
+               ads:adSize="BANNER"
+               ads:adUnitId="ca-app-pub-2121577746086633/1712704942" />
+
+
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card4"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_marginBottom="32dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/ca2"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:text="...." />
+                   <!-- your views -->
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/card5"
+               android:layout_width="match_parent"
+               android:layout_height="100dp"
+               android:layout_marginBottom="32dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="#ffffff"
+                   android:gravity="center">
+
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/img1" />
+                   <!-- your views -->
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+           <com.google.android.gms.ads.AdView
+               android:id="@+id/adView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_centerHorizontal="true"
+               app:adSize="BANNER"
+               app:adUnitId="ca-app-pub-2121577746086633/3955724902"></com.google.android.gms.ads.AdView>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="2sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
